@@ -8,7 +8,7 @@ os_cloud: 'lsliva-test'
 # of the value that will identify the created virtual environment.
 # WARNING: if a virtual environment associated with the supplied ardana_env already
 # exists, it will be replaced.
-ardana_env: 'canucks'
+ardana_env: 'crowbar'
 
 # If left unchecked, the cloud deployment steps will be skipped. This option can be used
 # if you only need to set up the infrastructure and configure the cloud media and
@@ -79,7 +79,7 @@ model: ''
 #   - std-split
 scenario_name: 'crowbar'
 
-scenario_file: 'cloud8/cloud8-5nodes-default.yml'
+scenario_file: 'cloud8/cloud8-2nodes-default.yml'
 # The type of deployer node deployment to use for the generated input model.
 # Possible values:
 #  - standalone: one node dedicated for CLM
@@ -91,11 +91,11 @@ scenario_file: 'cloud8/cloud8-5nodes-default.yml'
 
 # The number of controller nodes in the generated input model (0-3).
 # Input model generator scenarios using this parameter: standard, entry-scale-kvm.
-controllers: '3'
+controllers: '1'
 
 # The number of SLES compute nodes in the generated input model.
 # Input model generator scenarios using this parameter: all
-sles_computes: '2'
+sles_computes: '1'
 
 # The number of RHEL (CentOS) compute nodes in the generated input model.
 # Input model generator scenarios using this parameter: all
