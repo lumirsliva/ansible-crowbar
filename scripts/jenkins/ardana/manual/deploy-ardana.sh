@@ -27,7 +27,7 @@ prepare_infra
 trap exit_msg EXIT
 
 build_test_packages
-bootstrap_clm
+bootstrap_crowbar
 deploy_ses_vcloud
 bootstrap_nodes
 install_crowbar
