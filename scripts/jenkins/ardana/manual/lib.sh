@@ -169,7 +169,7 @@ function bootstrap_clm {
     test_repo_url="http://download.suse.de/ibs/$(sed 's#\b:\b#&/#' <<< $homeproject):/ardana-ci-local/standard/$(get_from_input homeproject):ardana-ci-local.repo"
   fi
   extra_repos=$(sed -e "s/^,//" -e "s/,$//" <<< "$(get_from_input extra_repos),${test_repo_url}")
-  ansible_playbook bootstrap-clm.yml -e extra_repos="${extra_repos}"
+  ansible_playbook bootstrap-crowbar.yml -e extra_repos="${extra_repos}"
 }
 
 function deploy_ses_vcloud {
@@ -186,15 +186,23 @@ function deploy_ses_vcloud {
 
 function bootstrap_nodes {
   if is_physical_deploy; then
-    ansible_playbook bootstrap-pcloud-nodes.yml
+    ansible_playbook bootstrap-crowbar-nodes.yml
   else
-    ansible_playbook bootstrap-vcloud-nodes.yml
+    ansible_playbook bootstrap-crowbar-nodes.yml
   fi
+}
+
+function install_crowbar {
+  ansible_playbook install-crowbar.yml
+}
+
+function register_crowbar_nodes {
+  ansible_playbook register-crowbar-nodes.yml
 }
 
 function deploy_cloud {
   if $(get_from_input deploy_cloud); then
-    ansible_playbook deploy-cloud.yml
+    ansible_playbook deploy-crowbar.yml
   fi
 }
 

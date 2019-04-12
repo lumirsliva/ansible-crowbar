@@ -15,6 +15,9 @@
 #
 ---
 ssh_pub_keys:
+  - name: lsliva-test
+    keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8zjvFrMqrAeXGLxQ9+qla3BmQtkXcqlCCeJrDXukx3/H2lQqpCsfPnMdz03iH+DwglDpngg33slk/ccR39QEP56agPk8i0dpZDSFxWgaGEcexmVqJZtISa7kqpc2hFYoJjcqBw6Hu7ZcAH/TeWk2rD2fCeC4oTHkQHmMHJcFF4pw3qbmb9G0f3x5trvqUB0JVGjuX8axdjoRXsBJ9ygZFTMg+NQSkTE5eHILhLjmH73BBjtfhEnGpnYrttWWtQn7JVxLtxG70uwZ+EF64P0K5SBQVp6SX8g23gu4mGlGgNHPEsHhUjJk6TKxQJ1xgvrq/6oxZC90f3likQw7UtjNr ardana@ip
   - name: cloud-ardana-ci
     keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKf4LZLpqTjPgVfHsN3FvMIN1RsLmXfqs2Ov3Zjrzlw/8zHMXqynlv9hq1SCHbunpvvvwaBS82MT9wwlK7QNtzy52z4h5+t6VsUTJRMCajSL74YpBy25g5RIzZQrMgUqj9pawUFQONfZOhJaNgELOYhQS1TFOk8IzZYbHSGAuTR9ZhlgS4INwEHMJ51wtjaRohcxy0KOhhDaqI6T3h/JSA02ws8/pZaTp4rigpPlOKhX18ShVDgnoXCLRa+cxKXc7eZmfQonz+a1xdJyYLnpqotdJ3hYylMlOHcr9WMLaCiV8lFz/5QOtmwcS0wUNRLY1eEMEIshxaMHnIGnzWh7CZ jenkins@cloud-ardana-ci
@@ -106,6 +109,9 @@ ssh_pub_keys:
   - name: hitalia
     keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDij5cliksmVc4fhA12hR3QuoL/uyhaA+iK7ntGWG6PYecszwkWDDdldyNBtLRsw1dsGpl9OEOuX9uzzgDI4wdvWpfx5TgLl5x4PrsTJKhwt6J56jXurJYjG0o2L67oHWPf7DndR/r+FyJYlTLvnyKqwS0zEQ9cpCL+TjgjUWNYoadKjZ/dhPbzYVz2+7lTA3+2jpG157ArnidRIrYCL8uIBmpmx85Fgtn7iCkaGvMwpAvibdSPYi/FWNSlZvlelII/yy5pFSSdKrqysoWk1eH5ANm4ASOkH5FB11oXkIwnqFfNv3gqvVRtPbCtpVDfKsE+5XZtvE8udWEKsaovoG1J hardik.italia@suse.com
+  - name: kbaikov
+    keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINa39c6uD1wl0S4OvK6UB1s/ewkeYwPLNh8LE7zX5RMh kbaikov
   - name: mseri
     keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDU1Ym9SvDBTztsRQhK9uKXBrlN6rSa/lJkAl8QQcfY1J49jSjefqA9WQ5ffQIFPinBWsRmTgzAvlceJ3Ir6rrQZfEgvcQumT313lNmQOurhNhV6H9c2IsWc1meDzog/QbFS4CQ13Z5thykxKqFqYAYW9KqPNHYcZKxsEPNBLxwujbIg5YPzmjpaJGHgNQmWxVPHGf+P8GbSFySKwGhnZzgOlbNJTXW1oi+g7qjSBuIVo2/MgQPHfhs5vBff2X5AMn6SLv66rDMx9Fj1+7FjPNyiJfB7X2cChlT846Ay2g1fab5XRRLdvGDgHMPJhdBF5j8MYBj27uVwIuWsknr64JR serim@seri-pc
@@ -121,9 +127,6 @@ ssh_pub_keys:
   - name: mnmehta
     keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC95Z3R6w8cnVHkTjtHtXwHvi8zCTA7/wpj29R9MQm2GIwMRPwmibyswWHMe8+i7H8bZ0v5aR9++ZeGAq9J8DvhOrTqSvIYuiad7WTye8oZA6EC7ifIjjUuQWcrQI2Y2itySVn+L4dXgIR/sjb+4ujgecX+ZvaRWh8P4xKyQsIBokwu6nrPqkzDa/zTx/BdPhN1tQiWtjPSZVcTjWHr/9a0ESzoSfYzZpCq3P7D+v7/Lbjk/9Wl/CXFw8Wfsh1OiFGg82BL4DgpKvakNdKKIf9gqrMkr0uCwmSZr2uY+7jRvgAbjxvagcTUtgyHUFhPoxjrHnbCPPveX2GYFnGgDvhb mnmehta@suse.com
-  - name: pendergr
-    keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC21ZifIo8673jPas6e4t7fWQYEtewQ6/y2j4lAfGZguda++oq7fGn1Oc0jr5DYYlwBCjOJ98KYZCbnkB7cN07oPNhpMa4cegCneyIlheyyWFw/PqK3wwFWyUUoPvJIFSHCSTbGHci7K+BvdcwWPoe3vrcQkkrLlnH765aUoVL8s9SziJEVvLypAqrvlDALTGIkqlfhhBbEqW6EsC59eLWGMNDllL71w6C8dUHRqrTH/fi8En5QAtKSCvygHLJyY7W4sEaUzwVfNyK2v3Odp3K8hHvFq5XEJviFL0h/+8oku175slo/otgzOgMyDUxYvivyqXWDpNxDhvxt9OHzBrjN eric
   - name: jwei
     keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIgKfLDicNV5gEmQvLBnopriAx+H+vq6Q+mrgAbSSQHPSsXp2ayXG/XIkb9BepDFtXvw3O4l9aCzXcmNpwDnaHQ8Xr6mv0RDwIDNrAE7qwzEuBtGTkCvStm8hmeR1NQzjgMJbjhTWs3rZ/udW9/RQX+f2cYEnikGQtqPW1yR99Xdw+C1UTsUQG5wPIYXyK4GUOuUMesC2jH8qCLRRR7WlXstezQLZWfEPaOCP1DwpVpbfypdqJp6+Ua/TdRsmQoTC+R7jBMUDodPkvfsXNmnnD7dspY7OMcy5BZafrkj7GakJ61oYsuNd13xxobuP4eT8+w+sJKHoFJRjR7k2NX6LL jwei@suse.com
@@ -150,21 +153,3 @@ ssh_pub_keys:
   - name: gracet
     keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCxuyo8D2cZco2yQ4YJG3QQGgyYttxLuFzd7rabW+mbIITtVIt35j8GvvR5sjXQ0js8tuPBD/fksQZnAVwQdcX8wgyzOKFjnFVzpFPUjp+y4PCoiLODqiVYsJvjf/iGTBPOvBAEwdFeU5RHrekMm86BWX/mXcnkZ++R1IHGuiJPYX09xxVCSz8/ggBFrlWxeCeQgSnNfGt35ZZUjqPG26cFaDNSC7BqS9UDSUob6GEq530HUwRV4M56yvP7z4rfB0tPEVvLTkGli6fs44BI7jhnsVWQTCg8rTnR0+8k2HLYtuMak83JkSz1VVQP16E7W9A/3KzNdu+coqiWyPWXrzJ5+aAaBmADJOEIuc50dlxRs9d8U+Ogb311vfPKlVryczhTdwQ3AuDsIMRucTSrL6mTcfhZcVTxmC+mFiFeW41tNYSw+i2r0BXGDP0C29pbxqfSbY6uf7z7gR4ePxyqEj6dOz0Ctcy/vTXcivEAf1VdYnZE0i2llSgVeRqz1SorhlXlxRqQWsns2OrBe8z8bzUHwY8BgzGX9PnyTK5JJuGVcPVDvAazGMcY+1ZkexR4J4EX+Kn9zkodP2s9w/ivh0VQluPeTrr8dBWwhUwbHR/M1Fz4lJWzMJ+kmg2ifJux5e6mTFZ3ljiu9WbRoG3+Qrs/lFdnyB+1he50BAbOs2eFCw== gtai@suse.com
-  - name: jonathan
-    keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5p3BqC4pP+3hnbD2pJDaKsgCip1+x5RosU5DHDdgKCyfsMJ4QjMhH2CCKCo8Cz9vdMYwu4iU6emkKWD3cme8pQXUtpCgxoQSOA6TDoDt7XYnbWT8RYxsHwaestOS6jT2d8m368xF3y0cL/NxdHx9fDYAkJDgWEH66N7eO0YVF50t3ow57+tj+EDt3SUweQvV/ChAZiMghe/6ItBKo9YLz2Rh4sBi5ASpEaoiDg3UTYDlp5ngOtcfjALBo4PRhH6xW/p9m9fTSyRtRPH4wvX4l37QbdgdrjV6xLU4A3WxCRQtBRttvxwVL7YQNoFYw0Aez0AE8UBNEVUa1nA8GzgM3 brownell@hp.com
-  - name: rtidwell
-    keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDSJkUpg3509zVapiMRuv6k1Iqkl1fQA9/eL5b2yQ1TiK6Po4emkg3qRnF0elwc2IIBl0hYFxNXvPVTzhcZlGJ8rhhi+niZH/fr2TDS2FLXKwypd2spAUyzDd7Bpq5On+I3yYii1B28o4hmfwRGoxF+n3Pb5qNowd6QsNX2LfhGonEUyhiv9zHiYBXLYr9/4yrCC0iW+rWgK3qxec8xisP6j6/qw0M2IIJxf6FmD09soXonV+gIqxprJE0mZeEfQm2Kk9OSuxsmqaOraKvwP4Tgf/AVfaa0tpkIYgSlaJk6lv7QfYCV+hcxxJ7GDnRaqxH0drvbQXu6SJJxnypLWAtz ryan@linux-te2l
-  - name: zzaimeche
-    keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDXBUoiBYYw4C4QUr3slgxmQOTyVAmV/w3Pdv9EldNXZtNEykcSfGC6F2mFOi0TfxbwD3g/BLSVS6LEENnJIO16OV34CclFiBWoHAlxtqNrA2pJnGMgqi2vRJcOsO5ZYaN+7h2AX19Z9EXk8X7PCNKXtCxsWGwdhMG7WyVAUYzMDxXuLunVGs/n+4UubPGD0hILvAqJ18KFWtmKXF/IwIyJfABRWK7MZIyko4hLn4OiWyiUO/hzZAnyORuM16tFwKV1lS2uDYUqy1IuSD/jpMOwQKYltCWCYhSaIFjLJWgoim+5AQCK/ebhxAyTyfXpaK6OSzWSQe9AfPAh7lynQhG3 thezarazia@gmail.com
-  - name: cjain
-    keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCxbV5f/Wu5kmgIjurznm7TzaSJFGkF4OncG5iuM/lUkvZq6ULKx2i/vjGUsC9Y153ln9FANjBdsjHoZh4koJNQiHv3DJYbZDYs5PYiGAT6cOikgkvioBtb+0DrWJ/sVKW1j9jFPOxxdEjQ/ggly/TBp9kF4FGRW2Gua2FIEhGv5g/ipAzKb17irP6O2RWMNX/dKFX2OYyDV5CUohKzUrUkWgl8d7xbR3i3Dy4XtvMig0c+VvhIceUx9MzAoJwD7XvPqV3gZ1PWsYIpUNTf+FvP+hGZkBAIfqmPdbSRDjVFM8MJnBpgR5cvAbBocLSugUOn68+jqe1lXFekvtxOPFif cjain@linux-3o0f
-  - name: hemna
-    keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEApEa22fCtBgmN/TSQlU0tvuCkQxumLomtm993Hf6J6C+UGRBBuKmg5UEZi5CbGKxlktGwUfSTXxTS+cns6tt5JySLydi5Z9mrEtvUwIhitXJUhBrxunN+rhn7PsvgUKQnBd8xJ6pOF4DGT2Ucn/utTHUe5yNQaQrxsHhFwLSfoWLSBzF7pdcF71OghHhk8CNGrWR/rXn+73IdhvKTqgTh1lG65jiPKvKbzfkAcRcpCGxiYT/HRfgzMlE9tPvYn4DG3unp/lz8IupQ8vMMWeF1YQ08RKzexlX2lUZX/NdEW4vMDzvvshv8cCmsuQuCA/xavPpr/7tsIcgpcoP8eaQk0w== waboring@wboring
-  - name: esampson
-    keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7SQCJiSWU939kbq2numoPwtBndYtrVmYwQsnCr8G/5RLRZMOBl64nrgpoNorSWUFK3zRTUj1oJE4dlsachJmFNe+Gu52/yCA69UVbAcOpHlWe295E+ko8Ml37Zofv+NEKhhzwxdo2dtj2WwxY3M2AmDkH3AiODpUJ6DqJpP9XCTMMLSszvAmBJJIlbQLbHuTRV2goXQzy3ZiW/qf4U6rdg/mkXfYNVTFE0vr5iTzqpKoJd1TKHVgf3xnVVywAwmFwdYFsVfv9kWER4e6SkjblIk9Y5eOZ1eAYZk5df+SxymslfXArN/APB77IwRiDKS87o8XIZulJhkYQu0+1WsTT earl.sampson@suse.com

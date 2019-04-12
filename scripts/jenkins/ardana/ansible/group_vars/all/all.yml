@@ -15,8 +15,8 @@
 #
 ---
 
-cloud_product: "ardana"
-#cloud_product: "crowbar"
+#cloud_product: "ardana"
+cloud_product: "crowbar"
 
 cloud_admin_user:
   ardana: ardana

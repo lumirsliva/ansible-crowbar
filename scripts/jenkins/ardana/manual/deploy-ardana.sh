@@ -30,6 +30,8 @@ build_test_packages
 bootstrap_clm
 deploy_ses_vcloud
 bootstrap_nodes
+install_crowbar
+register_crowbar_nodes
 deploy_cloud
 update_cloud
 run_tempest

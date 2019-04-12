@@ -2,13 +2,13 @@
 #============= Eng. Cloud =============#
 # The OpenStack API credentials used to manage virtual clouds
 # (leave empty to use the default shared 'cloud' ECP account).
-os_cloud: 'engcloud-cloud-ci'
+os_cloud: 'lsliva-test'
 
 # The virtual or hardware environment identifier. This field should either be set to one
 # of the value that will identify the created virtual environment.
 # WARNING: if a virtual environment associated with the supplied ardana_env already
 # exists, it will be replaced.
-ardana_env: ''
+ardana_env: 'crowbar'
 
 # If left unchecked, the cloud deployment steps will be skipped. This option can be used
 # if you only need to set up the infrastructure and configure the cloud media and
@@ -77,8 +77,9 @@ model: ''
 #   - standard
 #   - std-lmm
 #   - std-split
-scenario_name: 'entry-scale-kvm'
+scenario_name: 'crowbar'
 
+scenario_file: 'cloud8/cloud8-2nodes-default.yml'
 # The type of deployer node deployment to use for the generated input model.
 # Possible values:
 #  - standalone: one node dedicated for CLM
@@ -86,15 +87,15 @@ scenario_name: 'entry-scale-kvm'
 # Input model generator scenarios using this parameter : all
 # NOTE: this parameter is used to generate input models. See the 'scenario_name' parameter
 #  about using one of the available input model generator scenarios.
-clm_model: 'integrated'
+#clm_model: 'integrated'
 
 # The number of controller nodes in the generated input model (0-3).
 # Input model generator scenarios using this parameter: standard, entry-scale-kvm.
-controllers: '3'
+controllers: '1'
 
 # The number of SLES compute nodes in the generated input model.
 # Input model generator scenarios using this parameter: all
-sles_computes: '2'
+sles_computes: '1'
 
 # The number of RHEL (CentOS) compute nodes in the generated input model.
 # Input model generator scenarios using this parameter: all
@@ -141,7 +142,7 @@ ipv6: false
 
 #============= SES =============#
 # Configure SES backend for glance, cinder, cinder-backup and nova
-ses_enabled: true
+ses_enabled: false
 
 # Configure object-store service with RADOS Gateway. This only takes effect
 # if ses_enabled is set to true.
