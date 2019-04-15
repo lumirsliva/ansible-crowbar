@@ -95,7 +95,7 @@ controllers: '3'
 
 # The number of SLES compute nodes in the generated input model.
 # Input model generator scenarios using this parameter: all
-sles_computes: '2'
+sles_computes: '1'
 
 # The number of RHEL (CentOS) compute nodes in the generated input model.
 # Input model generator scenarios using this parameter: all
