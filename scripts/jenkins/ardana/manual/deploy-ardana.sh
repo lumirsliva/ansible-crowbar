@@ -20,7 +20,7 @@ source lib.sh
 
 validate_input
 setup_ansible_venv
-mitogen_enable
+mitogen_disable
 prepare_input_model
 prepare_infra
 
@@ -28,11 +28,11 @@ trap exit_msg EXIT
 
 build_test_packages
 bootstrap_crowbar
-deploy_ses_vcloud
+# deploy_ses_vcloud
 bootstrap_nodes
 install_crowbar
 register_crowbar_nodes
 deploy_cloud
-update_cloud
-run_tempest
-run_qa_tests
+# update_cloud
+# run_tempest
+# run_qa_tests

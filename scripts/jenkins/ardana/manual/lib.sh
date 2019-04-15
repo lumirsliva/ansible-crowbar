@@ -237,7 +237,7 @@ function validate_input {
   else
     echo "
   *****************************************************************************************
-  ** Ardana will be deployed using the following config:
+  ** Crowbar will be deployed using the following config:
 $(cat input.yml| grep -v "^#\|''\|^[[:space:]]*$" | sed -e 's/^/  ** /')
   *****************************************************************************************
     "
