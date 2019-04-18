@@ -32,7 +32,7 @@ ses_qe
 
 [deployer_virt]
 # BEGIN ANSIBLE MANAGED BLOCK - ARDANA
-canucks      ansible_host=10.86.1.0
+oilers      ansible_host=10.86.4.252
 # END ANSIBLE MANAGED BLOCK - ARDANA
 
 [ses_virt]

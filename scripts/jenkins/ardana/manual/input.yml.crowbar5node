@@ -8,7 +8,7 @@ os_cloud: 'lsliva-test'
 # of the value that will identify the created virtual environment.
 # WARNING: if a virtual environment associated with the supplied ardana_env already
 # exists, it will be replaced.
-ardana_env: 'oilers'
+ardana_env: 'canucks'
 
 # If left unchecked, the cloud deployment steps will be skipped. This option can be used
 # if you only need to set up the infrastructure and configure the cloud media and

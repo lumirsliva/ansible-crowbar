@@ -137,7 +137,8 @@ proposals:
       - cluster:services
       nova-compute-hyperv: []
       nova-compute-kvm:
-      - @@compute-kvm@@
+      - @@compute-kvm1@@
+      - @@compute-kvm2@@
       nova-compute-qemu: []
       nova-compute-xen: []
 - barclamp: horizon
@@ -162,7 +163,8 @@ proposals:
   deployment:
     elements:
       ceilometer-agent:
-      - @@compute-kvm@@
+      - @@compute-kvm1@@
+      - @@compute-kvm2@@
       ceilometer-agent-hyperv: []
       ceilometer-central:
       - cluster:services
